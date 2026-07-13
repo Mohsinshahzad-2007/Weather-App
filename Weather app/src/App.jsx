@@ -78,4 +78,17 @@ export default function App() {
 
         <form onSubmit={handleSearchSubmit} style={{ display: "flex", gap: "10px", marginBottom: "20px" }}>
           <input name="cityInput" type="text" placeholder="Enter city name..." style={{ flex: 1, padding: "10px 15px", borderRadius: "20px", border: "none", outline: "none", fontSize: "14px", color: "#000000", backgroundColor: "#ffffff" }} required />
-          <button type="submit" style={{ padding: "10px 20px
+        <button 
+  type="submit" 
+  style={{ 
+    padding: "10px 20px", 
+    border: "none", 
+    borderRadius: "20px", 
+    backgroundColor: "#ffffff", 
+    color: "#0984e3", 
+    fontWeight: "bold", 
+    cursor: "pointer" 
+  }}
+>
+  Search
+</button>
